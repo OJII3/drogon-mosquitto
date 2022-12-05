@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Build",
+      "command": "cd ${workspaceFolder}/build && make",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
