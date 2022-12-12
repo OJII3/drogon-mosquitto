@@ -90,7 +90,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -185,7 +186,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -200,7 +202,13 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "controllers/http_simple_controller.cc",
+			"path" : "controllers/HttpSimpleControllerTest.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "controllers/WebsocketControllerTest.cc",
 			"sourceGroupIndex" : 0
 		}
 	],
