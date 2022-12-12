@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<%c++
+// fetch parameters as unordered_map from http view data
+auto params = @@.get<std::unordered_map<std::string, std::string>>("parameters");
+%>
+<head>
+    <meta charset="utf-8">
+    <title>[[ title ]]</title>
+</head>
+<body>
+    <h1>[[ title ]]</h1>
+    <p>[[ content ]]</p>
+</html>
